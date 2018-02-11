@@ -3,5 +3,8 @@ module.exports = {
     title: 'Flexbox Playground',
   },
   pathPrefix: '/flex-playground',
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass'
+  ],
 };
