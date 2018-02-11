@@ -8,7 +8,4 @@ public/
 yarn-error.log
 yarn.lock
 package-lock.json
-.idea/flexbox-playground.iml
-.idea/inspectionProfiles/
-.idea/modules.xml
-.idea/workspace.xml
+.idea/
