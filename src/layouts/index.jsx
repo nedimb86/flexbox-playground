@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Sidebar from '../components/Sidebar/Sidebar'
+import Preview from '../components/Preview/Preview'
 
 import './index.scss'
 
@@ -16,7 +17,7 @@ const TemplateWrapper = ( { children } ) => (
     />
     <div>
       <Sidebar/>
-      {children()}
+      <Preview/>
     </div>
   </div>
 );
