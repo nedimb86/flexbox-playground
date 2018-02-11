@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Flexbox Playground',
   },
-  pathPrefix: '/blog',
+  pathPrefix: '/flex-playground',
   plugins: ['gatsby-plugin-react-helmet'],
 };
