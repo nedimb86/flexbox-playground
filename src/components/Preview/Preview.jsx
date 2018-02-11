@@ -3,7 +3,7 @@ import React from 'react'
 const Preview = props => {
   return (
     <div>
-      preview cont
+      preview content
     </div>
   )
 };
