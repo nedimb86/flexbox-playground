@@ -8,5 +8,5 @@ deploy:
   keep-history: true
   on:
     branch: master
- notifications:
-    slack: $SLACK_TEAM:$SLACK_TOKEN
+notifications:
+  slack: $SLACK_TEAM:$SLACK_TOKEN
