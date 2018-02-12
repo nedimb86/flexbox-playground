@@ -4,7 +4,7 @@ import './Preview.scss';
 const Preview = props => {
   return (
     <div className="preview-main">
-      preview content
+      preview content...
     </div>
   )
 };
