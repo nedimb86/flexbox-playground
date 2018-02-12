@@ -15,9 +15,9 @@ const TemplateWrapper = ( { children } ) => (
         { name: 'keywords', content: 'flexbox, playground, flex' },
       ]}
     />
-    <div>
-      <Sidebar/>
-      <Preview/>
+    <div className="content">
+      <Sidebar className="sidebar"/>
+      <Preview className="preview"/>
     </div>
   </div>
 );

@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Preview.scss';
 
 const Preview = props => {
   return (
-    <div>
+    <div className="preview-main">
       preview content
     </div>
   )
