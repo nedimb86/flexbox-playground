@@ -1,12 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Sidebar from '../components/Sidebar/Sidebar'
-import Preview from '../components/Preview/Preview'
+import MainWrapper from '../components/MainWrapper'
 
 import './index.scss'
 
-const TemplateWrapper = ( { children } ) => (
+const TemplateWrapper = () => (
   <div>
     <Helmet
       title="Flexbox playground"
@@ -15,15 +13,9 @@ const TemplateWrapper = ( { children } ) => (
         { name: 'keywords', content: 'flexbox, playground, flex' },
       ]}
     />
-    <div className="content">
-      <Sidebar className="sidebar"/>
-      <Preview className="preview"/>
-    </div>
+    <MainWrapper/>
   </div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
 
 export default TemplateWrapper
